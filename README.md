@@ -57,7 +57,7 @@ customer-behavior-analysis/
 
 Below is a preview of the interactive Power BI dashboard built for this project:
 
-![Dashboard Overview](screenshots/dashboard_overview.png)
+![Dashboard Overview](screenshots/dashboard.png)
 
 An interactive Power BI dashboard was built to visualize:
 
