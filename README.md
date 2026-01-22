@@ -1,30 +1,89 @@
 # Customer Behavior Analysis
 
-End-to-end data analysis project using Python, SQL and Power BI.
+End-to-end data analysis project using Python, SQL, and Power BI.
 
-## Project Overview
-This project analyzes customer shopping behavior for a retail company.  
-The goal is to identify high-value customer segments, understand the impact of discounts and subscriptions, and support business decisions.
+This project analyzes customer shopping behavior based on a retail dataset with 3,900 transactions.  
+The goal is to understand how customers buy, what drives revenue, and how factors like discounts and subscriptions affect spending.
 
-## Tools Used
-- Python (Pandas)
-- PostgreSQL (SQL queries)
-- Power BI (interactive dashboard)
 
-## Key Steps
-- Data cleaning and preprocessing in Python  
-- Feature engineering (e.g., age groups)  
-- SQL analysis to answer business questions  
-- Power BI dashboard with KPIs and filters  
+## 📌 Project Goals
 
-## Key Business Questions
-- Which customer segments generate the most revenue?  
-- Do subscribers spend more than non-subscribers?  
-- Which products perform best by rating and revenue?  
-- How do discounts affect purchase behavior?  
+- Identify high-value customer segments  
+- Analyze revenue and sales by product category  
+- Evaluate the impact of discounts and subscriptions  
+- Explore customer behavior across age groups  
+- Build a business-oriented dashboard for decision support  
 
-## Files
-- `/python` – data cleaning and EDA notebooks  
-- `/sql` – analytical SQL queries  
-- `/powerbi` – Power BI dashboard file and screenshots  
 
+## 🛠 Tech Stack
+
+- **Python (Pandas, NumPy)** — data cleaning, preprocessing, basic feature engineering  
+- **PostgreSQL / SQL** — analytical queries, aggregations, CTEs  
+- **Power BI** — interactive dashboard and KPI visualization  
+- **Git** — version control and project structure  
+
+
+## 📂 Repository Structure
+
+customer-behavior-analysis/
+│
+├── data/
+│ └── customer_data.csv
+│
+├── python/
+│ └── eda_and_cleaning.ipynb
+│
+├── sql/
+│ └── queries.sql
+│
+├── powerbi/
+│ └── dashboard.pbix
+│
+├── docs/
+│ ├── 01_business_problem.pdf
+│ ├── 02_analysis_report.pdf
+│ └── 03_presentation.pdf
+│
+├── README.md
+└── .gitignore
+
+
+## 🔍 Key Analysis Areas
+
+- Revenue by gender and product category  
+- Customers who used discounts but spent above average  
+- Subscription impact on average order value  
+- Top products by average review rating  
+- Customer segmentation (New / Returning / Loyal)  
+- Revenue contribution by age group  
+
+
+## 📊 Dashboard
+
+An interactive Power BI dashboard was built to visualize:
+
+- KPIs:  
+  - Number of Customers  
+  - Average Purchase Amount  
+  - Average Review Rating  
+  - Subscription Rate  
+- Revenue by category  
+- Revenue by age group  
+- Customer distribution by subscription status  
+
+
+## 📈 Business Insights (Examples)
+
+- Subscribers spend more on average per order than non-subscribers  
+- Clothing and Accessories generate the highest revenue  
+- Young Adults are the top revenue-generating age group  
+- Discounts help increase order value but should be targeted carefully  
+
+
+## 📄 Project Documentation
+
+- [Business Problem Statement](docs/01_business_problem.pdf)  
+- [Analysis Report](docs/02_analysis_report.pdf)  
+- [Presentation](docs/03_presentation.pdf)  
+
+ 
