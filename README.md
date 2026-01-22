@@ -25,28 +25,23 @@ The goal is to understand how customers buy, what drives revenue, and how factor
 
 ## 📂 Repository Structure
 
+```text
 customer-behavior-analysis/
-│
 ├── data/
-│ └── customer_data.csv
-│
+│   └── customer_data.csv
 ├── python/
-│ └── eda_and_cleaning.ipynb
-│
+│   └── eda_and_cleaning.ipynb
 ├── sql/
-│ └── queries.sql
-│
+│   └── queries.sql
 ├── powerbi/
-│ └── dashboard.pbix
-│
+│   └── dashboard.pbix
 ├── docs/
-│ ├── 01_business_problem.pdf
-│ ├── 02_analysis_report.pdf
-│ └── 03_presentation.pdf
-│
+│   ├── 01_business_problem.pdf
+│   ├── 02_analysis_report.pdf
+│   └── 03_presentation.pdf
 ├── README.md
 └── .gitignore
-
+```
 
 ## 🔍 Key Analysis Areas
 
